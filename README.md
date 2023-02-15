@@ -5,4 +5,10 @@ In this project, the client wanted an analytics dashboard that displays business
 The following steps were followed to successfully meet the client's needs.
 
 - The client's business requirements and documentation alongside the schema of the MySQL database were keenly studied to decode aggregate tables to be created
-- online transactional processing (OLTP) database schema were studied to understand the business uses cases. Aggregate tables were created with SQL queries and new tables were populated with data from the client’s OLTP database. Stored Procedures and Triggers were created and implemented to automate incremental population of data on aggregate tables each time INSERT/UPDATE activities occur on the client’s OLTP database. Finally, aggregate tables were connected to a visualization software to display key business metrics on a dashboard in real-time.
+- Aggregate tables were created and data obtained from the original tables were aggregated and populated into the newly created aggregate tables
+- Several queries were run to affirm success of data loading into aggregate tables
+- SQL procedures and triggers were created to automate incremental loading of aggregate data from original tables each time INSERT/UPDATE events occurred on the OLTP MySQL database  i.e., customers filed a new application or their status changed from "pending" to "approved"
+- A dashboard was created on Google Looker Studio and data in aggregate tables from OLTP MySQL database were connected as the data source
+- The Google Looker Studio was set to refresh the data source every 15 seconds to ensure real-time metrics were reflected 
+
+- [Analytics_Dashboard(https://lookerstudio.google.com/reporting/0ba11fc9-d327-4932-8c10-8f25d8999c02/page/VUACD)
