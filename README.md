@@ -11,4 +11,4 @@ The following steps were followed to successfully meet the client's needs.
 - A dashboard was created on Google Looker Studio and data in aggregate tables from OLTP MySQL database were connected as the data source
 - The Google Looker Studio was set to refresh the data source every 15 seconds to ensure real-time metrics were reflected 
 
-- [Analytics_Dashboard(https://lookerstudio.google.com/reporting/0ba11fc9-d327-4932-8c10-8f25d8999c02/page/VUACD)
+- [Analytics_Dashboard](https://lookerstudio.google.com/reporting/0ba11fc9-d327-4932-8c10-8f25d8999c02/page/VUACD)
