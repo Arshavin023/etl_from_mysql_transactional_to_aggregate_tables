@@ -1,4 +1,4 @@
-# Aggregate-table-creation-SQL-procesures-&-triggers-and-dashboard-building-andautomation
+# Aggregate-table-creation-SQL-procesures-&-triggers-and-dashboard design 
 
 In this project, the client wanted an analytics dashboard that displays business metrics in real-time with respect to changes occuring in their online transaction processing (OLTP) sysem, which was built with MySQL relational database.
 
