@@ -1,5 +1,4 @@
-# Aggregate-table-creation-SQL-procesures-&-triggers-and-dashboard design 
-
+# end to end analytics project
 In this project, the client wanted an analytics dashboard that displays business metrics in real-time with respect to changes occuring in their online transaction processing (OLTP) sysem, which was built with MySQL relational database.
 
 The following steps were followed to successfully meet the client's needs.
